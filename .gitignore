@@ -1,0 +1,4 @@
+# Project exclude paths
+/java-base/target/
+.idea
+*.iml
