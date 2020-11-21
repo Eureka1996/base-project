@@ -10,6 +10,10 @@ import java.util.function.Function;
 
 public class Demo3 {
 
+	public static String sub(String str){
+		return str.substring(0,2);
+	}
+
 	@Test
 	public void test1(){
 		Comparator<Integer> c = new Comparator<Integer>() {
@@ -21,9 +25,13 @@ public class Demo3 {
 
 		Comparator<Integer> c2 = (x,y) -> Integer.compare(x,y);
 
+		Comparator<Integer> c3 = Integer::compare;
+
 		Collections.sort(Arrays.asList(""),(x,y)->x.compareTo(y));
 
 		test2(Arrays.asList("wu","fu","qiang"),(x)->x.substring(0,1));
+
+		test2(Arrays.asList("wu","fu","qiang"),Demo3::sub);
 
 	}
 
