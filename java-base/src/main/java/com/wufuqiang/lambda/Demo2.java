@@ -27,6 +27,7 @@ public class Demo2 {
 		System.out.println(f);
 	}
 
+	//过滤出符合条件的字符串
 	public List<String> filterNames(List<String> names,Filter filter){
 		List<String> newName = new ArrayList<>();
 		for(String n : names){
