@@ -1,0 +1,6 @@
+# Project exclude paths
+/java-base/target/
+.idea
+*.iml
+/log/
+/flink-sql-1.10/target/
