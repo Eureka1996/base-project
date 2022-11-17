@@ -1,4 +1,4 @@
-package com.wufuqiang.design.singleton.containersingleton;
+package com.wufuqiang.design.singleton.container_singleton;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

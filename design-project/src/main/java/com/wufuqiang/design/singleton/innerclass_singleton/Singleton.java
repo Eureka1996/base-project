@@ -1,4 +1,4 @@
-package com.wufuqiang.design.singleton.innerclass;
+package com.wufuqiang.design.singleton.innerclass_singleton;
 
 /**
  * @author: Wu Fuqiang
